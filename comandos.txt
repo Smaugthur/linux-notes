@@ -39,7 +39,7 @@ ESTANDAR INPUT, OUTPUT, ERROR
             Escribira el output de "ls" dentro del archivo "lista.txt"
                 
     REDIRECCION DE ERROR
-        Usar el operador "2>", funciona igual que redireccionar el estandar
+        Usar los operadores "2>" y "2>>", funcionan igual que redireccionar el estandar
         output ej:
 
            ➥ cd texto.txt 2> ./error/errores.txt
