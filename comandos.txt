@@ -1,0 +1,50 @@
+╔═╗┌─┐┌┬┐┌─┐┌┐┌┌┬┐┌─┐┌─┐
+║  │ ││││├─┤│││ │││ │└─┐
+╚═╝└─┘┴ ┴┴ ┴┘└┘─┴┘└─┘└─┘
+
+ESTANDAR INPUT, OUTPUT, ERROR
+    Cuando un comando se ejecuta siempre busca por 3 archivos:
+        ⇒ estandar input
+        ⇒ estandar output
+        ⇒ estandar error
+    Para facilitar identificarlos se les denota con numeros:
+        ↝  input  =0
+        ↝  output =1
+        ↝ error  =2
+    Estos archivos indican a la shell :
+        ❯ Input:  De donde RECIBIR parametros   (default=teclado)
+        ❯ Output: Donde DEVOLVER los resultados (default=pantalla) 
+        ❯ Error:  Donde DEVOLVER los errores    (default=pantalla)
+    Sin embargo, se puede manipular los lugares que apuntan los estandares
+    a estos se le llama "redirección"
+
+    REDIRECCION DE INPUT
+        Para ello se usa el operador "<", con el se puede pasar el contenido
+        de un archivo como input ej:
+
+        ➥ sort < texto.txt
+
+        "sort" va a tomar los datos del archivo texto.txt y los va a ordernar.
+
+    REDIRECCION DE OUTPUT
+        Usar los operadores ">>" y ">", ellos guardan el output de un comando
+        en un archivo.
+            USO:
+               ⇒">" sobreescribe el output en un archivo.
+               ⇒">>" añade el output en un archivo.
+
+            EJ:
+               ➥ ls -la > lista.txt
+
+            Escribira el output de "ls" dentro del archivo "lista.txt"
+                
+    REDIRECCION DE ERROR
+        Usar el operador "2>", funciona igual que redireccionar el estandar
+        output ej:
+
+           ➥ cd texto.txt 2> ./error/errores.txt
+
+        Guardara los errores en el archivo errores.txt dentro de la "carpeta" 
+        "error"
+
+PIPES:

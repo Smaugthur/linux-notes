@@ -1,0 +1,30 @@
+
+╔═╗┬ ┬┌─┐┬─┐┌┬┐┌─┐┬ ┬┌┬┐┌─┐
+╚═╗├─┤│ │├┬┘ │ │  │ │ │ └─┐
+╚═╝┴ ┴└─┘┴└─ ┴ └─┘└─┘ ┴ └─┘
+
+Ctrl+L      Limpiar consola
+
+MOVIMIENTO
+    Ctrl+A      Al principio del comando
+    Ctrl+E      Al final del comando
+
+    Ctrl+B      Un caracter atrás
+    Ctrl+F      Un caracter delante
+    
+    Alt+B       Una palabra atrás
+    Alt+F       Una palabra delante
+
+COPY & PASTE
+    Esc+.       Pega el ultimo String del ultimo comando 
+    Ctrl+Y      Pegar
+    Ctrl+W      Corta 1 palabra atras del cursor (texto separado por espacios)
+    Ctrl+K      Corta todo después del cursor
+    Ctrl+U      Corta todo antes del cursor
+
+BORRAR
+    Ctrl+D      Borra 1 caracter despues del cursor 
+    Ctrl+H      Borra 1 caracter antes del cursor
+    Alt+D       Borra 1 palabra despues del cursor
+    
+Ctrl+D      salir de sesión (si no hay ningún comando)
